@@ -1,0 +1,85 @@
+html {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: black;    
+}
+
+body {
+  margin-top: -5px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+header {
+  width: 100%;
+  height: 64px;
+  display: block;
+  background-color: skyblue;
+}
+  
+header nav {   
+  float: right;
+  padding-right: 16px;
+  position: relative;
+  top: 16px;
+  right: 24px;
+}  
+
+a {
+  color: white;
+  background-color: skyblue;
+  text-decoration: none; 
+  font-size: 22px;  
+  padding: 10px; 
+}
+
+h1 {
+  font-size: 54px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s; 
+  width: 325px;
+  height: 450px;
+  background-color: white;   
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);    
+}
+
+.container {
+  padding: 2px 16px;    
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.container p {
+  padding-bottom: 10px;  
+}
+
+img {
+  width: 325px;
+  height: 250px;
+}
