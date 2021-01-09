@@ -4,6 +4,7 @@
     <title>Education</title>
     <link rel="stylesheet" href="education.css" type="text/css" />
     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js" async></script>
   </head>
 
   <header>
@@ -37,6 +38,10 @@
       <h2 id="certs">Certifications</h2>
       <p id="link">Links are provided in the drop down menus below</p>
     </div>
+
+    <script>
+      new Glide('.glide').mount()
+    </script>
 
     <div class="glide">
       <div class="glide__track" data-glide-el="track">
@@ -218,20 +223,12 @@
           </li>  
         </ul>
       </div>
-      <div class="glide">
-        <div class="glide__track" data-glide-el="track">...</div>
         
         <div class="glide__arrows" data-glide-el="controls">
           <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
           <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
         </div>
-      </div>  
     </div> 
-    
-    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
-    <script>
-      new Glide('.glide').mount()
-    </script>
 
   </body>    
 </html>
