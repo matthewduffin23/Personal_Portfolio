@@ -237,13 +237,13 @@ button {
   border-radius: 12px;
 }
 
-#right {
+.glide__arrow--right {
   float: right;
   position: relative;
   right: 70px;
 }
 
-#left {
+.glide__arrow--left {
   position: relative;
   left: 70px;
 }
